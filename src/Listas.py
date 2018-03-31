@@ -175,3 +175,14 @@ while players > 10:
           print('Need more players to make a team')
     else:
           print('Team is healthy');
+
+
+#NÚMEROS PRIMOS ENTRE 10 e 20
+for num in range(0,10):     #to iterate between 0 to 10
+   for i in range(2,num):    #to iterate on the factors of the number
+      if num%i == 0:         #to determine the first factor
+         j=num/i             #to calculate the second factor
+         print '%d equals %d * %d' % (num,i,j)
+         break #to move to the next number, the #first FOR
+      else:                  # else part of the loop
+         print num, 'is a prime number';
