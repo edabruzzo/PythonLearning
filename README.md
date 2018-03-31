@@ -1,5 +1,10 @@
 # PythonLearning
 
+*********************************************************************************************
+ATENÇÃO !!!!
+Este projeto foi desenvolvido pela ALURA e NÃO POR MIM. Eu apenas o utilizo como aprendizado.
+*********************************************************************************************
+
 APRENDIZADO DE PYTHON COM A ALURA
 
 CURSO PYTHON 2 : https://cursos.alura.com.br/course/introducao-ao-python/
