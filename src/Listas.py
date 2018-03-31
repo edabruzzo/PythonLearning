@@ -111,3 +111,16 @@ print(teste);
 print playerPositions.keys();
 
 
+'''
+Iteration and Conditionals
+For Loop:
+
+The "for" loop in Python is just like the shorthand notation of a "for" loop 
+which was introduced in Java 1.5. Quite simply, 
+a "for" loop is used to iterate through a list of values as such:
+
+'''
+
+for position in playerPositions : print position;
+
+
