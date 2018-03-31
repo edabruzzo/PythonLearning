@@ -74,3 +74,40 @@ myset = set(positions);
 print(myset);
 
 
+'''
+Dictionaries
+
+If you've ever worked with set, value pairs in another language then you've 
+basically worked with Python dictionaries. These are containers that allow you
+to store values in pairs, where you have a key:value notation. Keys must be
+unique within any given dictionary, but values can be duplicates. 
+As you can see from the examples below, dictionaries can be a 
+very useful data container as they provide capabilities which are not available
+in lists. You may use any data type you wish as a key as long as it is unique.
+Strings and integers are most commonly used for keys, but you could also use a 
+tuple since they are immutable. Let's see dictionaries in action...
+
+'''
+
+
+# Define dictionary
+playerPositions = {'juneau':'center', 'nickels':'wing'};
+
+# Add entry into dictionary
+playerPositions['smith'] = 'defensemen';
+print(playerPositions);
+
+# Remove entry
+del playerPositions['juneau'];
+print(playerPositions);
+
+
+# Test membership
+#aqui a variável teste é um boolean
+teste =  'nickels' in playerPositions;
+print(teste);
+
+# List keys
+print playerPositions.keys();
+
+
