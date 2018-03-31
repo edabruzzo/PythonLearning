@@ -58,5 +58,19 @@ print(convites_com_valores[0:1]);
 print(convites_com_valores[2:3]);
 
 '''
+'''
+Sets
+Sets are containers that hold unordered data values, 
+they cannot contain duplicate values, and they are not indexable. 
+This means that the x y notation does not work with a set. 
+You must use built in set functions in order to work with a set.
+'''
+
+
+# Define list with a duplicate
+positions = ['center','wing','goalie','wing','defensemen'];
+# Define a set from that list
+myset = set(positions);
+print(myset);
 
 
