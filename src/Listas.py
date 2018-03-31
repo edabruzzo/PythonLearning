@@ -132,7 +132,10 @@ listaCompras = ['banana', 'arroz', 'feijão', 'salada'];
 for item in listaCompras:
     print item;
 
+#Outro jeito de iterar na lista usando  index
 
+for index in range(len(listaCompras)):
+    print ('ITERAÇÃO POR INDEX ELEMENTO %s : %s ' %((index+1), listaCompras[index])); 
 
 '''
 
