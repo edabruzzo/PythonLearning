@@ -26,3 +26,37 @@ tipos_convites.append('penetra');
 '''
 print(tipos_convites_tuple[0:2]);
 
+
+
+'''
+Exemplo de estrutura de dados do tipo DICTIONARY, 
+que guarda chaves juntamente com seu valor
+Seria praticamente como uma Collection do Java do tipo Map ou HashMap
+com uma chave (key) e seu respectivo valor (value).
+
+'''
+
+convites_com_valores = {'vip' : 60 , 'normal' : 40 , 'meia': 30 , 'cortesia':0};
+
+print(convites_com_valores);
+
+print(convites_com_valores['vip']);
+print(convites_com_valores['meia']);
+
+#ALTERANDO O VALOR COM BASE NA CHAVE:
+convites_com_valores['vip']=80;
+convites_com_valores['meia']=40;
+
+print(convites_com_valores['vip']);
+print(convites_com_valores['meia']);
+
+'''
+print(convites_com_valores[0:1]);
+TypeError: unhashable type: 'slice'
+
+print(convites_com_valores[0:1]);
+print(convites_com_valores[2:3]);
+
+'''
+
+
