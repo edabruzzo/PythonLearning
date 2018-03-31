@@ -141,3 +141,24 @@ for convite in convites_com_valores:
     if convites_com_valores[convite] == 80 : print('Este convite é vip')
     elif convites_com_valores[convite] == 0 : print ('Este convite é uma cortesia')
     else: print('Este convite não é nem vip e nem cortesia');
+    
+    
+'''    
+While Statement:
+As with other programming languages, the "while" statement will continue to 
+loop until a defined condition is met.
+'''
+
+# Represent a team wellness report
+players = 18
+injuries = 1
+print('TESTANDO A ESTRUTURA DE CONTROLE WHILE');
+while players > 10:
+    print('PLAYERS = %d  INJURIES= %d' %(players, injuries))
+    players -= injuries
+    if players < 13:
+          print('Only %d players left, critical number' % players)
+    elif players < 10:
+          print('Need more players to make a team')
+    else:
+          print('Team is healthy');
