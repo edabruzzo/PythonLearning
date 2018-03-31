@@ -120,8 +120,18 @@ which was introduced in Java 1.5. Quite simply,
 a "for" loop is used to iterate through a list of values as such:
 
 '''
-
+#exemplo de um foreach() do Java - iterando por uma lista
 for position in playerPositions : print position;
+
+for letter in 'EMMANUEL':
+    print(letter);
+    
+    
+listaCompras = ['banana', 'arroz', 'feijão', 'salada'];
+
+for item in listaCompras:
+    print item;
+
 
 
 '''
