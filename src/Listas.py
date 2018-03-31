@@ -124,3 +124,20 @@ a "for" loop is used to iterate through a list of values as such:
 for position in playerPositions : print position;
 
 
+'''
+
+If Statement:
+
+No surprise here, the "if" statement evaluates a conditional to a True or False. 
+If you want to perform several comparisons, you will follow the first 
+"if" statement with an "elif", and the last evaluation should be "else". 
+Let's look at the "if" statement in the example below.
+
+'''
+#convites_com_valores = {'vip' : 80 , 'normal' : 40 , 'meia': 40 , 'cortesia':0};
+
+for convite in convites_com_valores: 
+    print('VERIFICANDO O CONVITE %s COM VALOR = %s' %(convite, convites_com_valores[convite]));
+    if convites_com_valores[convite] == 80 : print('Este convite é vip')
+    elif convites_com_valores[convite] == 0 : print ('Este convite é uma cortesia')
+    else: print('Este convite não é nem vip e nem cortesia');
