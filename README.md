@@ -10,7 +10,9 @@ APRENDIZADO DE PYTHON COM A ALURA
 CURSO PYTHON 2 : https://cursos.alura.com.br/course/introducao-ao-python/
 
 
-BÁSICO DE PYTHON COM NETBEANS: http://wiki.netbeans.org/NBPythonQuickStart#Defining_Variables_and_Representing_Strings
+BÁSICO DE PYTHON COM NETBEANS:
+ÓTIMO TUTORIAL PARA IR SE FAMILIARIZANDO COM A LINGUAGEM
+http://wiki.netbeans.org/NBPythonQuickStart#Defining_Variables_and_Representing_Strings
 
 
 UTILIZANDO NETBEANS 8.2 COM O PLUGIN DO NETBEANS PARA A VERSÃO 8.1, FUNCIONA BEM NA 8.2 
